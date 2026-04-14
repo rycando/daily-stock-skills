@@ -39,29 +39,16 @@
 
 ## 설치
 
-### 옵션 1: 프로젝트 로컬 설치 (권장)
-
 ```bash
 git clone https://github.com/rycando/daily-stock-skills.git
 cd daily-stock-skills
 pip install pykrx
 
-# 분석 결과 출력 디렉토리는 자동 생성됨
 # 와치리스트 편집
 $EDITOR .claude/skills/daily-stock-analyzer/assets/watchlist.json
 ```
 
 이 디렉토리에서 Claude Code를 실행하면 5개 스킬이 자동 발견됩니다.
-
-### 옵션 2: .skill 패키지 설치
-
-`dist/` 디렉토리에 사전 패키징된 `.skill` 파일이 있습니다. Claude Code의 스킬 디렉토리(`~/.claude/skills/`)에 압축 해제:
-
-```bash
-for f in dist/*.skill; do
-  unzip -o "$f" -d ~/.claude/skills/
-done
-```
 
 ## 사용
 
