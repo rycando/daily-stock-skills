@@ -1,0 +1,7 @@
+{
+  "description": "Tickers analyzed daily. Edit this file to change the watchlist. Ticker = 6-digit KRX code, name = Korean name used as news/board search key.",
+  "tickers": [
+    { "ticker": "005930", "name": "삼성전자" },
+    { "ticker": "000660", "name": "SK하이닉스" }
+  ]
+}
